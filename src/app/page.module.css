@@ -1,14 +1,14 @@
 .card {
-   margin: 1rem;
-   flex-basis: 45%;
-   padding: 1.5rem;
+   /* margin: 1rem;
+   padding: 1.5rem; */
    text-align:left;
-   color:inherit;
+   color:black;
    text-decoration:none;
    border: 1px solid hsl(0, 0%, 92%); 
    border-radius: 10px;
-   width: 300px;
-   height:240px;
+   width: 390px;
+   height:320px;
+   background-color: white
 }
 
 .cardContainer{
@@ -17,3 +17,82 @@
     align-items: center;
     margin-top: 15%
 }
+.formContainer {
+    width: 100%;
+    height:100%;
+}
+.nameLabel{
+    margin-left: 100px;
+}
+.nameContainer {
+    margin-top: 20px;
+    margin-bottom:20px;
+}
+.nameInputBox{
+    border: 1px solid hsl(0, 100%, 1%);
+    margin-left: 10px;
+}
+
+.yearEstablishedLabel {
+   margin-left: 20px;
+}
+
+.yearEstablishedContainer {
+    margin-top : 20px;
+}
+
+.summaryOfProfitLabelContainer{
+    margin-left: 10px;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+.yearEstablishedBox {
+    border: 1px solid hsl(0, 100%, 1%);
+    margin-left: 10px;
+}
+
+.summaryOfProfitLabel {
+    margin-left:10px;
+}
+.summaryOfProfitBox {
+    border: 1px solid hsl(0, 100%, 1%);
+    margin-left: 10px;
+}
+
+.amountLabel{
+    margin-left: 80px;
+}
+.amount {
+    border: 1px solid hsl(0, 100%, 1%);
+    margin-left: 15px;
+    margin-bottom:20px;
+}
+
+.labelAccountProvider {
+    margin-left: 10px;
+    margin-bottom:20px;
+}
+
+.labelCars{
+    margin-left: 40px;
+}
+
+.optionsAccountProvider{
+    border: 1px solid hsl(0, 100%, 1%);
+    margin-left:15px;
+    width: 180px;
+}
+
+.submitContainer {
+    display:flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom:20px;
+}
+
+.submitInputBox {
+    border-top: 5px;
+    border: 1px solid hsl(0, 100%, 1%);
+}
+
